@@ -1,0 +1,150 @@
+.img-des {
+    text-align:center;
+    
+}
+
+.img-des i {
+    margin-right: 3px;
+    color: $primary-color;
+    
+}
+
+.detail-img1 {
+    text-align:center;
+}
+
+.detail-img1 img {
+    height: 500px;
+}
+
+.detail-description {
+    font-size:10px;
+    color: $rgba-color;
+}
+
+.detail-btn {
+    margin-left: 4px;
+}
+
+.btn-primary-ver2.ver-detail {
+    border: none;
+    text-transform: uppercase;
+}
+
+.detail-price {
+    font-size: 24px;
+    color: $primary-color;
+    margin: 5px 0;
+}
+
+.detail-review {
+    color: $rgba-color;
+    border-top: 1px  solid $border-color;
+    border-bottom: 1px  solid $border-color;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.detail-review span {
+    margin-left: 10px;
+}
+
+.detail-review-content {
+    margin-top: 30px;
+
+}
+
+.detail-heading {
+    font-weight: 500;
+    font-size: 18px;
+    color: $rgba-color;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.detail-color {
+    display:flex;
+}
+
+.detail-color-item1,
+.detail-color-item3,
+.detail-color-item2 {
+    margin-right: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.detail-color-item1 {
+    background-color: $primary-color;
+}
+
+.detail-color-item2 {
+    background-color: #000;
+
+}
+
+.detail-color-item3 {
+    background-color: #9c0000;
+
+}
+
+.detail-size-content {
+    border: 1px solid $border-color;
+    padding: 10px 20px;
+    display:inline-flex;
+    cursor: pointer;
+
+}
+
+.detail-size {
+    
+}
+
+.detail-size p {
+    color: $rgba-color;
+
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.detail-size i {
+    color: $rgba-color;
+    font-size: 12px;
+}
+
+.count-box {
+    display: inline-flex;
+    padding: 8px 20px;
+    background-color: #e6e6e6;
+    height: 100%;
+    font-size: 15px;
+    color: $rgba-color;
+}
+
+
+
+.count-box p {
+    padding: 0 30px;
+    height: 100%;
+    background-color: #fff;
+    margin: 0 20px;
+}
+
+.span1 {
+}
+
+.span2 {
+}
+
+.detail-add button {
+    margin-left: 20px;
+}
+
+.detail-des {
+    font-size: 12px;
+    color: $rgba-color;
+}
+
+.vote {
+    display: inline-flex;
+}

@@ -1,0 +1,34 @@
+$primary-color:#e6ae48;
+$rgba-color: rgba(60, 55, 55, 0.8);
+$border-color: rgba(0, 0, 0, 0.1);
+.primary {
+    color: $primary-color;
+}
+
+@import "_content_home.scss";
+
+@import "_slider_home.scss";
+
+@import "_product.scss";
+
+@import "_navbar.scss";
+
+@import "_header.scss";
+
+@import "footer.scss";
+
+@import "_category.scss";
+
+@import "blog.scss";
+
+@import "heading_and_img.scss";
+
+@import "introduce.scss";
+
+@import "cart.scss";
+
+@import "product_portfolio.scss";
+
+@import "base.scss";
+
+@import "detail.scss";

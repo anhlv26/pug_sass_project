@@ -1,0 +1,82 @@
+.portfolio-img {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.portfolio-img2 {
+    width: 100%;
+}
+
+.vote {
+    display: flex;
+    align-items: center;
+}
+
+.portfolio-item {
+    display: flex;
+    border-bottom: 1px solid $border-color;
+
+}
+
+.portfolio-product-vote {
+    display: flex;
+    align-items: center;
+}
+
+.portfolio-desc {
+    color:$rgba-color;
+    max-width: 400px;
+}
+
+.vote {
+    color:$rgba-color;
+    margin-top: 10px;
+}
+
+.vote i {
+    margin-left: 20px;
+    margin-right: 5px;
+}
+
+.vote p {
+
+}
+
+.portfolio-product-desc {
+    padding-top: 20px;
+    font-size: 12px;
+}
+
+.portfolio-heading {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.portfolio-price {
+    font-size: 16px;
+    color: $primary-color;
+    margin: 15px 0;
+
+}
+
+.portfolio-menu {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    border-bottom: 1px solid $border-color;
+    padding-bottom: 16px;
+    color: $rgba-color;
+}
+
+.portfolio-page {
+}
+
+.portfolio-page i {
+    font-size: 14px;
+    padding: 0 5px;
+}
+
+.portfolio-page span {
+    padding: 0 2px;
+}

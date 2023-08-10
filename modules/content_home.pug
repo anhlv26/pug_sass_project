@@ -1,0 +1,74 @@
+.content    
+    .introduce
+        .heading Giới thiệu
+        img(class="introduce-img-logo" src="./assets/images/title-dark.png" alt="")
+        p Mriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui faciteorum claritatem. Investigtiones demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putam
+        img(class="introduce-img" src="./assets/images/product.jpg" alt="")
+        button.btn-primary XEM THÊM
+    .sale
+        .grid.wide
+            .sale-content      
+                img(class="sale-content-img" src="./assets/images/introduce-2.jpg" alt="")
+                .sale-content-product
+                    .sale-content-product-new
+                        img(class="sale-content-product-review-img" src="./assets/images/product1-home.jpg" alt="")
+                    .sale-content-product-review 
+                        +headingAndImg("rượu nho năm 1987")
+                        p.portfolio-price 330.000đ
+                        button.btn-primary.btn-content ADD TO CART
+                        p.portfolio-desc.content Một hợp chất có trong rượu vang được gọi là resveratro có khả <br> năng làm tăng tối đa tuổi thọ. Resveratro còn có khả năng ngăn chặn <br> mật độ ôxy hoả của protein béo.
+                        img(src="./assets/images/2_home.png", alt="")
+    .introduce.no1
+        +headingAndImgVer2('Sản phẩm mới')
+    .grid.wide 
+        .row    
+            .col.l-3 
+                +productItem('./assets/images/product212.jpg')    
+            .col.l-3 
+                +productItem('./assets/images/product212.jpg')    
+            .col.l-3 
+                +productItem('./assets/images/product213.jpg')    
+            .col.l-3 
+                +productItem('./assets/images/product213.jpg')    
+    img(class="img-all" src="./assets/images/Static Block.jpg")   
+    .introduce
+        +headingAndImgVer2('sản phẩm bán chạy')
+    .grid.wide 
+        .row    
+            .col.l-3 
+                +productItem('./assets/images/product212.jpg')    
+            .col.l-3 
+                +productItem('./assets/images/product212.jpg')    
+            .col.l-3 
+                +productItem('./assets/images/product213.jpg')    
+            .col.l-3 
+                +productItem('./assets/images/product213.jpg')  
+    .grid.wide  
+        .row
+            .col.l-8
+                .introduce
+                    +headingAndImgVer2('Tin tức & Blog')
+                .row 
+                    .col.l-6
+                        +blogItem("./assets/images/blog2.jpg")
+                    .col.l-6
+                        +blogItem("./assets/images/blog2.jpg")
+            .col.l-4
+                .introduce
+                    +headingAndImgVer2('Khách hàng')
+
+                    .blog-heading-icon 
+                        .blog-icon-primary 
+                        <i class="blog-subb-icon fa-solid fa-quote-right"></i>
+                    p.blog-description.des Vang nổ Thăng Long có hương vị đặc trưng của sản phẩm lên men tự nhiên tử hoa quả với độ rượu nhẹ, bọt ga đầy trắng mịn. Vang Nổ thăng long ...                             
+                    p.blog-readmore Read more
+                    .img-author 
+                        img(src="./assets/images/author1.jpg" alt="")
+                    p.author-name Giang LT 
+                    p.blog-readmore.name-athor Graphic design
+                    .loading-icon 
+                        .blog-icon-next                           
+                        .blog-icon-next                           
+                        .blog-icon-next                           
+
+include ./mixin.pug

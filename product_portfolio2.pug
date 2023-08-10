@@ -1,0 +1,40 @@
+extends layout.pug
+block main
+    .grid.wide  
+        .page   
+            span.page1 Trang chủ 
+            span.slashmark /
+            span.page1 Sản phẩm 
+            span.slashmark /
+            span.page2 Rượu vang đỏ
+        img(class="portfolio-img" src="./assets/images/Layer 78.jpg")
+        .row 
+            include ./modules/category.pug
+            .col.l-9
+                include ./modules/portfolio_menu.pug
+                .portfolio-product
+                    .row
+                        .portfolio-item
+                            +productPortfolio('./assets/images/2.jpg')
+                    .row
+                        .portfolio-item
+                            +productPortfolio('./assets/images/2.jpg')
+                    .row
+                        .portfolio-item
+                            +productPortfolio('./assets/images/2.jpg')
+                    .row
+                        .portfolio-item
+                            +productPortfolio('./assets/images/2.jpg')
+                    .row
+                        .portfolio-item
+                            +productPortfolio('./assets/images/2.jpg')
+                    .row
+                        .portfolio-item
+                            +productPortfolio('./assets/images/2.jpg')
+                    .row
+                        .portfolio-item
+                            +productPortfolio('./assets/images/2.jpg')
+                    .row
+                        .portfolio-item
+                            +productPortfolio('./assets/images/2.jpg')
+                        

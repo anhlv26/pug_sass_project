@@ -1,0 +1,125 @@
+.footer {
+    margin-top: 80px;
+}
+
+.footer-main {
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 18px;
+}
+
+.footer-img {
+    width: 100%;
+    display: block;
+    margin: 0px auto;
+}
+
+.footer-content {
+    margin-top: 60px;
+}
+
+.footer-contact {
+}
+
+.footer-content-heading {
+    letter-spacing: 3px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.footer-content-text {
+    white-space: pre-line;
+    opacity: 0.8;
+}
+
+.footer-content-text-email {
+}
+
+.footer-content-heading,
+.footer-content-text {
+    text-transform: uppercase;
+}
+
+.footer-content-text-email {
+    opacity: 0.8;
+}
+
+.emaill-btn {
+    background-color: black;
+    color: white;
+    padding: 6px 10px;
+    font-size: 10px;
+    margin-left: -4px;
+}
+
+.footer-content-input {
+    margin: 11px 0;
+    font-style: italic;
+    font-size: 10px;
+    padding: 5px 10px;
+    outline: none;
+
+}
+
+.emaill-btn {
+    position: relative;
+    cursor: pointer;
+    font-size: 11px;
+    border: none;
+}
+
+.emaill-btn::before {
+    position: absolute;
+    content: "";
+    border-left: 12.5px solid #000;
+    border-right: 12.5px solid transparent;
+    border-top: 12.5px solid transparent;
+    border-bottom: 12.5px solid transparent;
+    left: 41px;
+    top: 0px;
+}
+
+.footer-content-icon {
+    margin-right: 10px;
+}
+
+.footer-content-icon-social {
+}
+
+.footer-contact-text,
+.footer-content-icon-social {
+    margin-right: 10px;
+}
+
+.footer-contact-hyphen {
+    margin-right: 10px;
+}
+
+.footer-contact-link {
+    cursor: pointer;
+    color: $primary-color;
+    font-style: italic;
+}
+
+.footer-end {
+    opacity: 0.6;
+    margin-bottom: 15px;
+
+}
+
+.footer-end-content{
+    margin-top: 10px;
+
+}
+
+.footer-end-icon-copy,
+.footer-end-icon
+{
+    margin-right: 15px;
+
+}
+
+.footer-end-icon {
+    font-size: 30px;
+}
+

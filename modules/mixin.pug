@@ -1,0 +1,43 @@
+mixin productItem(src)
+    .product    
+        .product-img
+            img(src=src, alt="")
+        h2.product-name RƯỢU VANG ĐÀ LẠT
+        .product-price 
+            span.product-price-current 370.000đ
+            span -
+            span.product-price-old 450.000đ
+        button.btn-primary ADD TO CART
+
+mixin blogItem(src)
+    .blog 
+        img(class="blog-img" src=src alt="")
+        h2.blog-heading VANG THĂNG LONG CLASSIC 
+        p.blog-sub-heading Đăng bởi GiangLe | 30/06/2015 | 60 bình luận 
+        p.blog-description Vang nỗ Thăng Long có hương vị đặc trưng của sản phẩm lên men tự nhiên tử hoa quả với độ rượu nhẹ, bọt ga đẩy trắng mịn. Vang Nổ thăng long tạo cảm giác hương phấn, êm dịu, vui tươi, sản phẩm được đóng chai dung tích 750m....
+        p.blog-readmore Read more
+
+mixin headingAndImg(text)
+    h2.page-heading=text 
+    img(class="page-heading-img" src="./assets/images/titleleft-dark.png" alt="")
+
+mixin headingAndImgVer2(text)
+    h2.page-heading.verC=text 
+    img(class="page-heading-img" src="./assets/images/title-dark.png" alt="")
+
+mixin productPortfolio(src)
+    .col.l-3
+        img(class="portfolio-img2" src="./assets/images/2.jpg" alt="") 
+    .col.l-9
+        .portfolio-product-desc
+            h2.portfolio-heading rượu nho năm 1987
+            p.portfolio-price 330.000đ
+            p.portfolio-desc Một hợp chất có trong rượu vang được gọi là resveratro có khả năng làm tăng tối đa tuổi thọ. Resveratro còn có khả năng ngăn chặn mật độ ôxy hoả của protein béo.  
+        .portfolio-product-vote     
+            button.btn-primary add to cart
+            .vote 
+                <i class="fa-solid fa-heart"></i>
+                p Yêu thích 
+            .vote 
+                <i class="fa-solid fa-wave-square"></i>
+                p So sánh

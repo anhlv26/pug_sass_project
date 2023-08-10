@@ -1,0 +1,103 @@
+extends layout.pug
+block main
+    .grid.wide  
+        .page   
+            span.page1 Trang chủ 
+            span.slashmark /
+            span.page1 Sản phẩm 
+            span.slashmark /
+            span.page2 Rượu vang đỏ
+        .row 
+            .col.l-1
+                .img-des
+                    <i class="fa-solid fa-arrow-up"></i>
+                    img(src="./assets/images/detail2.jpg" alt="")
+                    img(src="./assets/images/detail2.jpg" alt="")
+                    img(src="./assets/images/detail3.jpg" alt="")
+                    img(src="./assets/images/detail2.jpg" alt="")
+                    img(src="./assets/images/detail2.jpg" alt="")
+                    <i class="fa-solid fa-arrow-down"></i>
+            .col.l-6    
+                .detail-img1
+                    img( src="./assets/images/detail1.jpg" alt="")
+            .col.l-5
+                +headingAndImg('rượu nho năm 1987')
+                p.detail-price 330.000đ
+                .detail-review 
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    span 1   Review(S)   
+                    span |
+                    span   Add Your Review
+                .detail-review-content  
+                    h2.detail-heading màu sắc
+                    .detail-color
+                        .detail-color-item1
+                        .detail-color-item2
+                        .detail-color-item3
+
+                .detail-review-content  
+                    h2.detail-heading kích cỡ
+                    .detail-size 
+                        .detail-size-content
+                            p Loại to
+                            <i class="fa-solid fa-caret-down"></i>
+                .detail-review-content  
+                    h2.detail-heading số lượng
+                    .detail-add
+                        .count-box  
+                            span.span1 -
+                            span.span2
+                                p.count 3
+                            span.span3 +
+                        button.btn-primary add to cart
+                .detail-review-content  
+                    .vote 
+                        <i class="fa-solid fa-heart"></i>
+                        p Yêu thích 
+                    .vote 
+                        <i class="fa-solid fa-wave-square"></i>
+                        p So sánh
+                    .vote 
+                        <i class="fa-solid fa-envelope"></i>
+                        p Email
+                .detail-review-content
+                  
+                    h2.detail-heading Mô tả
+                    p.detail-des Một hợp chất có trong rượu vang được gọi là re veratro có khả năng làm tăng tối đa tuổi thọ. Resveratro còn có khả năng ngăn chặn mật độ ôxy hoá của protein béo.
+                .detail-review-content  
+        .row 
+            .col.l-7 
+                .row 
+                    .detail-btn
+                        button.btn-primary-ver2.ver-detail đặc điểm nổi bật       
+                        button.btn-primary-ver2.ver-detail thông tin sản phẩm      
+                        button.btn-primary-ver2.ver-detail đánh giá
+                p.detail-description Đừng nghĩ rằng chỉ vì đôi chân to mi bạn không thể mặc được món đồ nào khác ngoài quần dài. Sau đây là những item virt trendy lan vừa có tác dụng rất hiệu quả trong việc điều chỉnh đôi chân to của bạn Mua Lẻ là mùa của những bộ cánh thoái mái, thoảng mát và hán cô gái nào cũng muốn khoe chân tối đa. Tuy nhiên, điều này lại không hề dễ dàng đối với những có năng và hãm đòi chân to. Đừng nghĩ rung chỉ vì đôi chân co mà bạn không thể mặc được món đồ nào khác ngoại quận dài. Sau đây là những xem vien tren ly lại vừa có tác dụng rất hiệu quả trong việc điều chỉnh đối chân to của bạn. Mùa hè là mùa của những bộ cánh thoải mái, thoảng mái và hắn cô gái nào cũng muốn khoe chân tối đa. Tuy nhiên, hiời này lại không hề dễ dùng đối với những cô nàng sở hữu đôi chân to. Vậy diện đồ thể nào đã vua tạo cảm giác nhẹ nhưng nhưng lại kheo leo giấu được thược điểm ấy? Sau đây, chúng tôi xin đưa ra gợi ý về loạt item o mà các cô nàng chân to nên gắn bố trong mùa hè này.
+            .col.l-1 
+            .col.l-4 
+                .item-img
+                    img(src="./assets/images/navbar.jpg")
+        
+        .introduce
+            +headingAndImgVer2('sản phẩm liên quan')
+        .row 
+            .col.l-3    
+                +productItem('./assets/images/product212.jpg')
+            .col.l-3    
+                +productItem('./assets/images/product212.jpg')
+            .col.l-3    
+                +productItem('./assets/images/product212.jpg')
+            .col.l-3    
+                +productItem('./assets/images/product212.jpg')
+            
+
+
+
+
+
+
+
